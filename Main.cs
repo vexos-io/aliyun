@@ -1,8 +1,4 @@
-﻿#region
-
-using Aliyun;
-
-#endregion
+﻿using Aliyun;
 
 if(args.Length != 5)
   throw new ArgumentException("arguments error: $key $secret $record $prefix $ip");
